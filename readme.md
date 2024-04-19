@@ -3,7 +3,10 @@ Looks pretty cool, used tanx to find the distance between the mouse courser and 
 I'm not a good digital drawing expert but it would be fun to have an image like this in a website.
 
 Video
-<figure class="video_container">
-  <iframe src="./Moving_Eyes.mp4" frameborder="0" allowfullscreen="true"> 
-</iframe>
-</figure>
+
+
+
+
+
+![Animataion](./Moving_Eyes2.gif)
+
