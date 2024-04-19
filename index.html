@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MyEyes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            body{
+                background-color: #000;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+            }
+            main{
+                display: grid;
+                place-items: center;
+                min-height: 100vh;
+                position: relative;
+            }
+            #eyes, #eyes img{
+                position: absolute;
+            }
+
+        </style>
+    
+    </head>
+    <body>
+        <main>
+            <img id="anchor" src="ShravyaKudlu.png" height="300px" width="300px" alt="Img">
+            <div id="eyes">
+                <img class="eye" src="myeyes9.png" height="7px" width="10px" style="top: 24px;left: 20px;">
+                <img class="eye" src="myeyes9.png" height="7px" width="10px" style=" top: 26px;left: -32px;">
+            </div>
+        </main>
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
